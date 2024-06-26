@@ -9,7 +9,7 @@ const RecentOrder = ({ sNo, productName, type, stock, sales }) => {
       <div className="grid grid-cols-12 gap-4 items-center text-gray-600">
       <div className="col-span-1">
         <img
-          className="w-12 h-12 rounded-lg object-cover"
+          className="w-12 h-12 rounded-full object-cover"
           src={sNo}
           alt={productName}
         />

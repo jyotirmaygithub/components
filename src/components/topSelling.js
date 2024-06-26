@@ -1,5 +1,5 @@
 import React from "react";
-import RecentOrder from "../layout/topSelling";
+import TopSelling from "../layout/topSelling";
 
 const saleData = [
   {
@@ -62,7 +62,7 @@ export default function RecentOrders() {
     </div>
         <div className="space-y-4">
           {saleData.map((sale, index) => (
-            <RecentOrder
+            <TopSelling
               key={index}
               sNo={sale.sNo}
               productName={sale.productName}
