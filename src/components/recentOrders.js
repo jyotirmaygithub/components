@@ -34,8 +34,8 @@ export default function RecentOrders() {
   };
 
   return (
-    <div className="w-[400px] p-4">
-      <div className="p-6 rounded-lg shadow-lg">
+    <div className="w-full max-w-md p-4 md:p-6 lg:p-8 mx-auto">
+      <div className="bg-white p-6 rounded-lg shadow-lg">
         <div className="flex justify-between items-center mb-8 relative">
           <div className="border-l-4 rounded-lg border-blue-300 h-full absolute left-0 top-0"></div>
           <h1 className="text-xl font-bold pl-4">Recent Orders</h1>

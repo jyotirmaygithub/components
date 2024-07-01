@@ -1,16 +1,18 @@
 import React from "react";
-import TopSelling from "./components/topSelling";
-import RecentOrders from "./components/recentOrders";
-import Orders from "./components/orders"
-
+import LandingPage from "./pages/landingPage";
+import OrderDetails from "./pages/orderDetails";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App flex flex-wrap">
-      <Orders/>
-      <RecentOrders/>
-      <TopSelling/>
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<LandingPage />} />
+          <Route exact path="/orderDetails" element={<OrderDetails/>} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
