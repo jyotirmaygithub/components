@@ -113,6 +113,7 @@ function App() {
             </tbody>
           </table>
         </div>
+        {/* responsiveness is incomplete in this code which need to do  */}
         {/* <div className='grid grid-cols-11 gap-6 font-bold text-gray-600 text-sm'>
           <div className='col-span-5'>
             <p>Item Details</p>

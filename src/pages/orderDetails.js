@@ -1,7 +1,7 @@
 import React from 'react'
-import CheckOutBox from "../components/checkOutBox"
-import User from "../components/orderDetails/user"
-import OrderTracking from '../components/orderDetails/orderTrack'
+import CheckOutBox from '../components/checkOutBox';
+import User from '../components/orderDetails/user';
+import OrderTracking from '../components/orderDetails/orderTrack';
 
 export default function orderDetails() {
   return (
@@ -10,5 +10,5 @@ export default function orderDetails() {
       <User/>
       <OrderTracking/>
     </div>
-  )
+  );
 }
