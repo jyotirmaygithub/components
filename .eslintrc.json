@@ -1,0 +1,20 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "react-hooks"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+
+  "rules": {
+    "indent": ["error", 2], // Use 2 spaces for indentation
+    "quotes": ["error", "single"], // Prefer single quotes for strings
+    "semi": ["error", "always"], // Require semicolons at the end of statements
+    "no-unused-vars": "warn",              // Warn on unused variables
+    "no-console": "warn", // Warn on console usage
+    "no-debugger": "warn", // Warn on debugger statements
+    "react-hooks/rules-of-hooks": "error", // Enforce rules of hooks
+    "react-hooks/exhaustive-deps": "warn", // Warn when dependencies are not specified in useEffect
+    "react/prop-types": "off"
+  }
+}
