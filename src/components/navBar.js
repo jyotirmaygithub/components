@@ -7,6 +7,7 @@ export default function NavBar() {
       <ul>
         <li className='bg-black text-white px-10'>
           <Link to="/orderDetails">Order Details</Link>
+          <Link to="/addProduct">Add Product</Link>
         </li>
         {/* Add more navigation links as needed */}
       </ul>

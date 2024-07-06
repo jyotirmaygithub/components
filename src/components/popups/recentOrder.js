@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react';
 
 export default function PopupRecentOrders({
   isDrawerOpen,
@@ -16,13 +16,13 @@ export default function PopupRecentOrders({
     };
 
     if (isDrawerOpen) {
-      document.addEventListener("mousedown", handleClickOutside);
+      document.addEventListener('mousedown', handleClickOutside);
     } else {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener('mousedown', handleClickOutside);
     }
 
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [isDrawerOpen, handleDrawerClose, drawerRef]);
 
@@ -30,18 +30,18 @@ export default function PopupRecentOrders({
     <div>
       {/* Drawer Component */}
       {isDrawerOpen && (
-        <div className="fixed mt-4 -ml-6 bg-opacity-50 flex justify-center items-center z-50">
+        <div className='fixed mt-4 -ml-6 bg-opacity-50 flex justify-center items-center z-50'>
           <div
             ref={drawerRef}
-            className="bg-white text-gray-500 rounded-lg shadow-lg"
+            className='bg-white text-gray-500 rounded-lg shadow-lg'
           >
-            <li className="hover:bg-violet-100 hover:text-violet-900 w-full px-5 p-2 list-none cursor-pointer">
+            <li className='hover:bg-violet-100 hover:text-violet-900 w-full px-5 p-2 list-none cursor-pointer'>
               Action 
             </li>
-            <li className="hover:bg-violet-100 hover:text-violet-900 w-full px-5 p-2 list-none cursor-pointer">
+            <li className='hover:bg-violet-100 hover:text-violet-900 w-full px-5 p-2 list-none cursor-pointer'>
               Another Action
             </li>
-            <li className="hover:bg-violet-100 hover:text-violet-900 w-full px-5 p-2 list-none cursor-pointer">
+            <li className='hover:bg-violet-100 hover:text-violet-900 w-full px-5 p-2 list-none cursor-pointer'>
               Something else here
             </li>
           </div>
