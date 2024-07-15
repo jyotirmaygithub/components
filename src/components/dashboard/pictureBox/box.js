@@ -3,8 +3,7 @@ import { BellIcon } from '@heroicons/react/24/outline';
 
 const OfferBox = () => {
   return (
-    // <div className='flex items-center justify-center min-h-screen bg-gray-100'>
-    <div className='w-11/12 md:w-3/4 lg:w-1/2 bg-white rounded-lg shadow-lg overflow-hidden'>
+    <div className=' my-2 w-11/12 md:w-3/4 lg:w-1/2 bg-white rounded-lg shadow-lg overflow-hidden'>
       <div className='relative'>
         <img
           src='https://images.unsplash.com/photo-1502239608882-93b729c6af43?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MjA5NzA2NzV8&ixlib=rb-4.0.3&q=85' // Replace with your image URL
@@ -41,7 +40,6 @@ const OfferBox = () => {
         </div>
       </div>
     </div>
-    // </div>
   );
 };
 

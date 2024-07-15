@@ -4,6 +4,7 @@ import RecentOrders from '../components/recentOrders';
 import Orders from '../components/orders';
 import MainBox from '../layout/boxContainer';
 import PictureBox from '../components/dashboard/pictureBox/box';
+import Earning from '../components/dashboard/earning/earning';
 
 
 function LandingPage() {
@@ -11,6 +12,7 @@ function LandingPage() {
     <div className='App flex flex-wrap'>
       <MainBox/>
       <PictureBox/>
+      <Earning/>
       <Orders/>
       <RecentOrders/>
       <TopSelling/>
