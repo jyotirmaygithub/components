@@ -5,7 +5,9 @@ import Orders from '../components/orders';
 import MainBox from '../layout/boxContainer';
 import PictureBox from '../components/dashboard/pictureBox/box';
 import Earning from '../components/dashboard/earning/earning';
-
+import TopCountriesSales from '../components/dashboard/topCountries/topCountries';
+import TopCustomers from '../components/dashboard/topCustomer/topcustomer';
+import ProductsOverview from '../components/dashboard/productOverview/productOverview';
 
 function LandingPage() {
   return (
@@ -13,6 +15,9 @@ function LandingPage() {
       <MainBox/>
       <PictureBox/>
       <Earning/>
+      <TopCountriesSales/>
+      <TopCustomers/>
+      <ProductsOverview/>
       <Orders/>
       <RecentOrders/>
       <TopSelling/>
