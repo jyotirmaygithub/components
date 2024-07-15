@@ -1,3 +1,37 @@
+// data.js
+import { ArrowUpIcon, UserIcon, ShoppingBagIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid';
+
+export const generalData = [
+  {
+    title: 'Total Sales',
+    value: '14,732',
+    percentage: 4.2,
+    bgColor: 'bg-violet-300',
+    Icon: ArrowUpIcon,
+  },
+  {
+    title: 'New Customers',
+    value: '1,230',
+    percentage: 3.8,
+    bgColor: 'bg-blue-300',
+    Icon: UserIcon,
+  },
+  {
+    title: 'Orders',
+    value: '2,452',
+    percentage: 5.1,
+    bgColor: 'bg-red-300',
+    Icon: ShoppingBagIcon,
+  },
+  {
+    title: 'Revenue',
+    value: '$24,532',
+    percentage: 6.4,
+    bgColor: 'bg-green-300',
+    Icon: CurrencyDollarIcon,
+  },
+];
+
 export const SalesData = [
   {
     sNo: 'https://images.unsplash.com/photo-1516762689617-e1cffcef479d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkyMzA5NDV8&ixlib=rb-4.0.3&q=85',
@@ -32,47 +66,39 @@ export const SalesData = [
 
 export const OrdersData = [
   {
-    person:
-      'https://images.unsplash.com/photo-1712847333437-f9386beb83e4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkzMTQ1OTN8&ixlib=rb-4.0.3&q=85',
+    person: 'https://images.unsplash.com/photo-1712847333437-f9386beb83e4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkzMTQ1OTN8&ixlib=rb-4.0.3&q=85',
     personName: 'arpit',
     deliveryDate: '24 May 2023',
     price: 5093,
     status: 'active',
-    productImage:
-      'https://images.unsplash.com/photo-1516762689617-e1cffcef479d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkyMzA5NDV8&ixlib=rb-4.0.3&q=85',
+    productImage: 'https://images.unsplash.com/photo-1516762689617-e1cffcef479d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkyMzA5NDV8&ixlib=rb-4.0.3&q=85',
     isOnline: true,
   },
   {
-    person:
-      'https://images.unsplash.com/photo-1712847333437-f9386beb83e4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkzMTQ1OTN8&ixlib=rb-4.0.3&q=85',
+    person: 'https://images.unsplash.com/photo-1712847333437-f9386beb83e4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkzMTQ1OTN8&ixlib=rb-4.0.3&q=85',
     personName: 'arpit',
     deliveryDate: '24 June 2023',
     price: 5093,
     status: 'cancelled',
-    productImage:
-      'https://images.unsplash.com/photo-1516762689617-e1cffcef479d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkyMzA5NDV8&ixlib=rb-4.0.3&q=85',
+    productImage: 'https://images.unsplash.com/photo-1516762689617-e1cffcef479d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkyMzA5NDV8&ixlib=rb-4.0.3&q=85',
     isOnline: false,
   },
   {
-    person:
-      'https://images.unsplash.com/photo-1712847333437-f9386beb83e4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkzMTQ1OTN8&ixlib=rb-4.0.3&q=85',
+    person: 'https://images.unsplash.com/photo-1712847333437-f9386beb83e4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkzMTQ1OTN8&ixlib=rb-4.0.3&q=85',
     personName: 'arpit',
     deliveryDate: '24 Feb 2023',
     price: 5093,
     status: 'active',
-    productImage:
-      'https://images.unsplash.com/photo-1516762689617-e1cffcef479d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkyMzA5NDV8&ixlib=rb-4.0.3&q=85',
+    productImage: 'https://images.unsplash.com/photo-1516762689617-e1cffcef479d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkyMzA5NDV8&ixlib=rb-4.0.3&q=85',
     isOnline: true,
   },
   {
-    person:
-      'https://images.unsplash.com/photo-1712847333437-f9386beb83e4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkzMTQ1OTN8&ixlib=rb-4.0.3&q=85',
+    person: 'https://images.unsplash.com/photo-1712847333437-f9386beb83e4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkzMTQ1OTN8&ixlib=rb-4.0.3&q=85',
     personName: 'arpit',
     deliveryDate: '1 May 2023',
     price: 5093,
     status: 'completed',
-    productImage:
-      'https://images.unsplash.com/photo-1516762689617-e1cffcef479d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkyMzA5NDV8&ixlib=rb-4.0.3&q=85',
+    productImage: 'https://images.unsplash.com/photo-1516762689617-e1cffcef479d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkyMzA5NDV8&ixlib=rb-4.0.3&q=85',
     isOnline: false,
   },
 ];
