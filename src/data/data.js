@@ -1,3 +1,42 @@
+// data.js
+import {
+  ArrowUpIcon,
+  UserIcon,
+  ShoppingBagIcon,
+  CurrencyDollarIcon,
+} from '@heroicons/react/24/solid';
+
+export const generalData = [
+  {
+    title: 'Total Sales',
+    value: '14,732',
+    percentage: 4.2,
+    bgColor: 'bg-violet-300',
+    Icon: ArrowUpIcon,
+  },
+  {
+    title: 'New Customers',
+    value: '1,230',
+    percentage: 3.8,
+    bgColor: 'bg-blue-300',
+    Icon: UserIcon,
+  },
+  {
+    title: 'Orders',
+    value: '2,452',
+    percentage: 5.1,
+    bgColor: 'bg-red-300',
+    Icon: ShoppingBagIcon,
+  },
+  {
+    title: 'Revenue',
+    value: '$24,532',
+    percentage: 6.4,
+    bgColor: 'bg-green-300',
+    Icon: CurrencyDollarIcon,
+  },
+];
+
 export const SalesData = [
   {
     sNo: 'https://images.unsplash.com/photo-1516762689617-e1cffcef479d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkyMzA5NDV8&ixlib=rb-4.0.3&q=85',
@@ -74,5 +113,56 @@ export const OrdersData = [
     productImage:
       'https://images.unsplash.com/photo-1516762689617-e1cffcef479d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MTkyMzA5NDV8&ixlib=rb-4.0.3&q=85',
     isOnline: false,
+  },
+];
+
+export const customers = [
+  { name: 'Emma Wilson', purchases: 15, amount: 1835 },
+  { name: 'Robert Lewis', purchases: 18, amount: 2415 },
+  { name: 'Angelina Hose', purchases: 21, amount: 2341 },
+  { name: 'Samantha Sam', purchases: 24, amount: 2624 },
+];
+
+
+export const products = [
+  {
+    name: 'Niker College Bag',
+    id: '#1734-9743',
+    price: 199.99,
+    status: 'Available',
+    sales: 3903,
+    revenue: 67899.24,
+  },
+  {
+    name: 'Dslr Camera (50mm f/1.9 HRM Lens)',
+    id: '#1234-4567',
+    price: 1299.99,
+    status: 'Available',
+    sales: 12435,
+    revenue: 324781.92,
+  },
+  {
+    name: 'Outdoor Bomber Jacket',
+    id: '#1902-9883',
+    price: 99.99,
+    status: 'Not Available',
+    sales: 5143,
+    revenue: 76102.76,
+  },
+  {
+    name: 'Light Blue Teddy',
+    id: '#8745-1232',
+    price: 79.00,
+    status: 'Limited Deal',
+    sales: 7183,
+    revenue: 78211.83,
+  },
+  {
+    name: 'Orange Smart Watch (24mm)',
+    id: '#1962-9033',
+    price: 199.99,
+    status: 'In Offer',
+    sales: 10287,
+    revenue: 232982.99,
   },
 ];
