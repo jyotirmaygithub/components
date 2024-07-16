@@ -8,7 +8,7 @@ export default function RecentOrders() {
   const filteredData = OrdersData.filter((order) => order.status === activeTab);
 
   return (
-    <div className='p-4 md:p-6 lg:p-8  overflow-auto'>
+    <div className='m-4 overflow-auto'>
       <div className='bg-white p-6 rounded-lg shadow-lg flex flex-col space-y-4 relative'>
         <div className='flex items-center'>
           <div className='border-l-4 rounded-lg border-blue-300 h-8'></div>

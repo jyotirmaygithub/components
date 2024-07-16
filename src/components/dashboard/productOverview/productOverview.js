@@ -4,8 +4,8 @@ import { products } from '../../../data/data';
 
 export default function RecentOrders() {
   return (
-    <div className='p-4 overflow-auto'>
-      <div className='p-6 rounded-lg shadow-lg'>
+    <div className='m-4 w-[100vw] overflow-auto rounded-lg shadow-lg'>
+      <div className='p-6 '>
         <div className='flex gap-2 items-center mb-4'>
           <div className='border-l-4 rounded-lg border-blue-300 h-8'></div>
           <h1 className='text-xl font-bold'>Product Overview</h1>

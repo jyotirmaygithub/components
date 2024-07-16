@@ -15,7 +15,7 @@ const TopCountriesSales = () => {
   };
 
   return (
-    <div className='m-2 max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden'>
+    <div className='m-4 max-w-md bg-white shadow-lg rounded-lg overflow-hidden'>
       <div className='p-6'>
         <div className='flex items-center mb-2'>
           <div className='border-l-4 rounded-lg border-blue-300 h-8'></div>

@@ -3,7 +3,7 @@ import { BellIcon } from '@heroicons/react/24/outline';
 
 const OfferBox = () => {
   return (
-    <div className=' my-2 w-11/12 md:w-3/4 lg:w-1/2 bg-white rounded-lg shadow-lg overflow-hidden'>
+    <div className='m-4 md:w-11/12 lg:w-3/4 xl:w-1/4 bg-white rounded-lg shadow-lg overflow-hidden'>
       <div className='relative'>
         <img
           src='https://images.unsplash.com/photo-1502239608882-93b729c6af43?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1MTIzNDJ8MHwxfGFsbHx8fHx8fHx8fDE3MjA5NzA2NzV8&ixlib=rb-4.0.3&q=85' // Replace with your image URL
@@ -18,15 +18,15 @@ const OfferBox = () => {
             <p className='mt-4 text-center p-1 bg-gray-400 rounded-lg opacity-60'>
               Bank Offer: 10% off on Aches Bank Credit Cards, up to $10. On
               orders of $500 and above{' '}
-              <span className=' underline cursor-pointer'>T&C</span>
+              <span className='underline cursor-pointer'>T&C</span>
             </p>
           </div>
-          <p className='p-1 rounded-lg  bg-gray-400 opacity-60 text-center'>15 Jan 2022 - 19 Jan 2022</p>
+          <p className='p-1 rounded-lg bg-gray-400 opacity-60 text-center'>15 Jan 2022 - 19 Jan 2022</p>
         </div>
       </div>
-      <div className='p-6 bg-white '>
+      <div className='p-6 bg-white'>
         <p className='mt-2 font-semibold text-start text-violet-500'>Biggest sale is back.</p>
-        <p className='mt-2  text-gray-600'>
+        <p className='mt-2 text-gray-600'>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore harum
           accusamus eum dolorum sapiente. Saepe.
         </p>

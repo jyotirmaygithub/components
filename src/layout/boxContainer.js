@@ -1,10 +1,11 @@
 import React from 'react';
 import Box from '../components/dashboard/boxContainer/box';
-import {generalData} from '../data/data';
+import { generalData } from '../data/data';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
+      <header className="App-header grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2 m-4">
         {generalData.map((item, index) => (
           <Box 
             key={index}

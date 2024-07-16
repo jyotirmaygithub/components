@@ -12,15 +12,19 @@ import ProductsOverview from '../components/dashboard/productOverview/productOve
 function LandingPage() {
   return (
     <div className='App flex flex-wrap'>
-      <MainBox/>
-      <PictureBox/>
-      <Earning/>
-      <TopCountriesSales/>
-      <TopCustomers/>
-      <ProductsOverview/>
-      <Orders/>
-      <RecentOrders/>
-      <TopSelling/>
+      <MainBox />
+      <Earning />
+      <div className='flex flex-wrap'>
+        <PictureBox className='w-full md:w-1/2 lg:w-1/3' />
+        <RecentOrders className='w-full md:w-1/2 lg:w-1/3' />
+        <TopSelling className='w-full md:w-1/2 lg:w-1/3' />
+      </div>
+      <div className='flex flex-wrap'>
+        <Orders className='w-full md:w-1/2 lg:w-1/3' />
+        <TopCountriesSales className='w-full md:w-1/2 lg:w-1/3' />
+        <TopCustomers className='w-full md:w-1/2 lg:w-1/3' />
+      </div>
+      <ProductsOverview />
     </div>
   );
 }
